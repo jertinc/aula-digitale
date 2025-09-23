@@ -7,4 +7,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface StoredMessageRepository extends JpaRepository<StoredMessage, Long> {
     // standard CRUD operations available — add custom queries as exercises
+    static String fin() {
+        return "";
+    }
 }
